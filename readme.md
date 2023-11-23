@@ -1,7 +1,9 @@
 # Alex Clark CV
 
 This is a html page to host a CV on github pages.
-it is using a simple tailwind setup based on a udemy course by 
+it is using a simple tailwind setup based on a udemy course.
+
+https://gac208.github.io/alex-clark-cv/
 
 ## Usage
 
