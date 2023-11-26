@@ -32,17 +32,18 @@
               />
               <div class="mb-12 text-center mt-4 justify-center items-center">
                 <h1
+                  tabindex="1"
                   class="text-2xl text-xl text-gray-800 font-bold dark:text-gray-400"
                 >
                   Alex Clark
                 </h1>
-                <div class="md:text-lg text-gray-600">
+                <div tabindex="2" class="md:text-lg text-gray-600">
                   <p class="">Software Engineer</p>
                   <p class="">Sr Front-End Software Engineer</p>
                   <p class="">Full Stack Web Developer</p>
                 </div>
                 <div class="text-gray-600 md:hidden mt-1">
-                  <span class="">(gac79@hotmail.com)</span>
+                  <span class="" alt="email address">(gac79@hotmail.com)</span>
                 </div>
               </div>
             </div>
@@ -62,7 +63,12 @@
                     <path d="M2 12H9V14H2zM4 15H10V17H4zM7 18H11V20H7z"></path>
                   </svg>
                 </div>
-                <span class="">gac79@hotmail.com</span>
+                <span
+                  tabindex="3"
+                  aria-label="Email address is gac79@hotmail.com"
+                  class=""
+                  >gac79@hotmail.com</span
+                >
               </div>
               <div class="my-5 text-lg dark:text-white flex">
                 <div class="mr-2">
@@ -81,9 +87,15 @@
                     ></path>
                   </svg>
                 </div>
-                <span class="text-gray-600">Nashua, NH</span>
+                <span
+                  tabindex="4"
+                  aria-label="Located in Nashua New Hampshire"
+                  class="text-gray-600"
+                  >Nashua, NH</span
+                >
               </div>
               <a
+                tabindex="5"
                 href="https://www.linkedin.com/in/clarkalex"
                 aria-label="Link to Alex Clark's LinkedIn Profile"
                 class="my-5 text-blue-500 text-lg text-gray-600 flex"
@@ -105,6 +117,7 @@
             </div>
             <div class="mx-4 hidden md:block">
               <a
+                tabindex="6"
                 href="mailto:gac79@hotmail.com"
                 aria-label="Link to Alex Clark's Email Address"
                 class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition duration-150 ease-in-out w-full py-2 text-white rounded text-base"
@@ -113,6 +126,7 @@
             </div>
             <div class="mx-4 hidden md:block mt-2">
               <a
+                tabindex="7"
                 href="./public/alex_clark_cv.pdf"
                 aria-label="Link to Alex Clark's CV in PDF format"
                 class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition duration-150 ease-in-out w-full py-2 text-white rounded text-base"
@@ -138,14 +152,11 @@
               {, including Node.js, TypeScript, and Next.js ....}
             </p>
           </div> -->
-          <div class="mx-4 mb-6">
-            <h1
-              tabindex="1"
-              class="mb-4 text-4xl text-gray-700 font-bold dark:text-white"
-            >
+          <div tabindex="8" class="mx-4 mb-6">
+            <h1 class="mb-4 text-4xl text-gray-700 font-bold dark:text-white">
               Summary
             </h1>
-            <p tabindex="2" class="text-lg dark:text-white">
+            <p class="text-lg dark:text-white">
               I am a results-driven and adaptable professional with a proven
               track record of success in client services and engineering. My
               background in computer science, combined with excellent
@@ -158,7 +169,7 @@
               build strong relationships and achieve success in my career.
             </p>
           </div>
-          <div class="mx-4 mb-6">
+          <div tabindex="9" class="mx-4 mb-6">
             <h1 class="mb-4 text-4xl text-gray-700 font-bold dark:text-white">
               Education
             </h1>
@@ -167,12 +178,15 @@
             </p>
           </div>
           <div class="mx-4">
-            <h1 class="mb-4 text-4xl text-gray-700 dark:text-white font-bold">
+            <h1
+              tabindex="10"
+              class="mb-4 text-4xl text-gray-700 dark:text-white font-bold"
+            >
               Experience
             </h1>
             <ul>
               <li class="mb-4">
-                <div>
+                <div tabindex="11">
                   <h2
                     class="text-2xl font-medium text-gray-800 dark:text-white"
                   >
@@ -229,7 +243,7 @@
                 </div>
               </li>
               <li class="mb-4">
-                <div>
+                <div tabindex="12">
                   <h2
                     class="text-2xl font-medium text-gray-800 dark:text-white"
                   >
@@ -292,7 +306,7 @@
                 </div>
               </li>
               <li class="mb-4">
-                <div>
+                <div tabindex="13">
                   <h2
                     class="text-2xl font-medium text-gray-800 dark:text-white"
                   >
@@ -341,7 +355,7 @@
                 </div>
               </li>
               <li class="mb-4">
-                <div>
+                <div tabindex="14">
                   <h2
                     class="text-2xl font-medium text-gray-800 dark:text-white"
                   >
@@ -383,7 +397,7 @@
                 </div>
               </li>
               <li class="mb-4">
-                <div>
+                <div tabindex="15">
                   <h2
                     class="text-2xl font-medium text-gray-800 dark:text-white"
                   >
@@ -426,7 +440,7 @@
               </li>
             </ul>
           </div>
-          <div class="mx-4">
+          <div class="mx-4" tabindex="16">
             <h1 class="mb-4 text-4xl text-gray-700 font-bold dark:text-white">
               Experienced in
             </h1>
@@ -486,7 +500,7 @@
               </li>
             </ul>
           </div>
-          <div class="mx-4">
+          <div class="mx-4" tabindex="17">
             <h1 class="mb-4 text-4xl text-gray-700 font-bold dark:text-white">
               Skills
             </h1>
@@ -555,7 +569,7 @@
               </li>
             </ul>
           </div>
-          <div class="mx-4">
+          <div class="mx-4" tabindex="18">
             <h1 class="mb-4 text-4xl text-gray-700 font-bold dark:text-white">
               Interests
             </h1>
