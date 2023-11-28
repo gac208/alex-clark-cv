@@ -1,7 +1,8 @@
 module.exports = {
-  content: ['./*.html'],
+  darkMode: "false",
+  content: ["./*.html"],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
